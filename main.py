@@ -23,7 +23,7 @@ def main():
 def read_streamer_logins():
     user_input = []
     if len(sys.argv) <= 1: 
-        twitch_streamers = ("San4izZ_,tveybi,iamkill,nudovka,meks120kg,YaDeath113,sad_lora,twitchtv3,juffydug,neonclouds_z,AhriNyan,WOLFFIX,marishamrr,Yablochny,millioham")
+        twitch_streamers = ("nyan_caaat,xaksflax,iamkill,nudovka,meks120kg,YaDeath113,sad_lora,twitchtv3,juffydug,neonclouds_z,earth_rf_tv,nix,marishamrr,Yablochny,millioham")
         user_input = twitch_streamers.split(",")
     else:
         for i in range(1, len(sys.argv)):
